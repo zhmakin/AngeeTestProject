@@ -46,7 +46,7 @@ namespace ActumTestProject
             List<string> favorites = new List<string>() {"The big band theory", "Suits", "Black list", "Elementary", "Sherlok"};
             Random randomIndex = new Random();
             string randomLine = 
-                favorites[randomIndex.Next(0,4)] + "\n"+ 
+                favorites[randomIndex.Next(0, 4)] + "\n"+ 
                 favorites[randomIndex.Next(0, 4)] + "\n"+ 
                 favorites[randomIndex.Next(0, 4)];
 
@@ -55,27 +55,42 @@ namespace ActumTestProject
 
             var dropBoxButton = Driver.FindElementByXPath("//div[@class='quantumWizMenuPaperselectDropDown exportDropDown']");
             dropBoxButton.Click();
-            var redColorCase = Driver.FindElementByXPath("//div[@class='freebirdFormviewerViewItemList']/div[4]/div[2]/div[2]/div[3]");
+            System.Threading.Thread.Sleep(100);
+            var redColorCase = Driver.FindElementByXPath("//form[@id='mG61Hd']/div/div[2]/div[2]/div[4]/div[2]/div[2]/div[3]/content");
             redColorCase.Click();
 
             // 5) Go back to first step
             var backButton = Driver.FindElementByXPath("//form[@id='mG61Hd']/div/div[2]/div[3]/div/div/div/content/span");
             backButton.Click();
+            System.Threading.Thread.Sleep(1000);
 
             // 6) Reverse text in third question
-            char[] myArr = thirdQuestionAnswerField.Text.ToCharArray();
+            thirdQuestionAnswerField = Driver.FindElementByXPath("//input[@name='entry.1864473569']");
+            char[] myArr = DateTime.Today.ToString("MMMM").ToCharArray();
             Array.Reverse(myArr);
-            string reversTxt = new string(myArr);
             thirdQuestionAnswerField.Clear();
-            thirdQuestionAnswerField.SendKeys(reversTxt);
+            thirdQuestionAnswerField.SendKeys(new string(myArr));
 
             // 7) Go to second step
+            nextButton = Driver.FindElementByXPath("//span[@class='quantumWizButtonPaperbuttonLabel exportLabel']");
             nextButton.Click();
 
             // 8) Check that both questions are still filed
-            // 9) Go to last step
-            // 10) Fill last question and send form
+            fourthQuestionAnswerField = Driver.FindElementByXPath("//textarea[@name='entry.1144061500']");
+            Assert.IsNotNull(fourthQuestionAnswerField.Text);
+            var field = Driver.FindElementByXPath("//div[@aria-selected='true']");
+            string selectedColor = field.Text;
+            Assert.AreEqual(selectedColor, "Red");
 
+            // 9) Go to last step
+            nextButton = Driver.FindElementByXPath("//form[@id='mG61Hd']/div/div[2]/div[3]/div/div/div[2]/content/span");
+            nextButton.Click();
+
+            // 10) Fill last question and send form
+            var radioButtonYes = Driver.FindElementByXPath("//div[@aria-label='Yes']");
+            radioButtonYes.Click();
+            var sendButton = Driver.FindElementByXPath("//form[@id='mG61Hd']/div/div[2]/div[3]/div/div/div[2]/content/span");
+            sendButton.Click();
         }
     }
 }
