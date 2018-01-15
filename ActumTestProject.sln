@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActumTestProject", "ActumTestProject\ActumTestProject.csproj", "{633E4B35-2668-4680-9B90-E66FC620A2D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActumTestProject", "ActumTestProject\ActumTestProject.csproj", "{0D6B25C1-53FE-425A-B65F-D973F87224FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{633E4B35-2668-4680-9B90-E66FC620A2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{633E4B35-2668-4680-9B90-E66FC620A2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{633E4B35-2668-4680-9B90-E66FC620A2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{633E4B35-2668-4680-9B90-E66FC620A2D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6B25C1-53FE-425A-B65F-D973F87224FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6B25C1-53FE-425A-B65F-D973F87224FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6B25C1-53FE-425A-B65F-D973F87224FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6B25C1-53FE-425A-B65F-D973F87224FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
