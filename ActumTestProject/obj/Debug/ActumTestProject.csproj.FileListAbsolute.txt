@@ -1,0 +1,10 @@
+F:\BitBucket\ActumTestProject\ActumTestProject\bin\Debug\ActumTestProject.dll
+F:\BitBucket\ActumTestProject\ActumTestProject\bin\Debug\ActumTestProject.pdb
+F:\BitBucket\ActumTestProject\ActumTestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\BitBucket\ActumTestProject\ActumTestProject\bin\Debug\WebDriver.dll
+F:\BitBucket\ActumTestProject\ActumTestProject\bin\Debug\WebDriver.Support.dll
+F:\BitBucket\ActumTestProject\ActumTestProject\bin\Debug\WebDriver.xml
+F:\BitBucket\ActumTestProject\ActumTestProject\bin\Debug\WebDriver.Support.xml
+F:\BitBucket\ActumTestProject\ActumTestProject\obj\Debug\ActumTestProject.csprojResolveAssemblyReference.cache
+F:\BitBucket\ActumTestProject\ActumTestProject\obj\Debug\ActumTestProject.dll
+F:\BitBucket\ActumTestProject\ActumTestProject\obj\Debug\ActumTestProject.pdb
