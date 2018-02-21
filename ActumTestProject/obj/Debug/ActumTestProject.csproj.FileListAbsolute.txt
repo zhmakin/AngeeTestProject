@@ -8,3 +8,7 @@ F:\BitBucket\ActumTestProject\ActumTestProject\bin\Debug\WebDriver.Support.xml
 F:\BitBucket\ActumTestProject\ActumTestProject\obj\Debug\ActumTestProject.csprojResolveAssemblyReference.cache
 F:\BitBucket\ActumTestProject\ActumTestProject\obj\Debug\ActumTestProject.dll
 F:\BitBucket\ActumTestProject\ActumTestProject\obj\Debug\ActumTestProject.pdb
+F:\BitBucket\ActumTestProject\ActumTestProject\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+F:\BitBucket\ActumTestProject\ActumTestProject\bin\Debug\ThoughtWorks.Selenium.Core.dll
+F:\BitBucket\ActumTestProject\ActumTestProject\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+F:\BitBucket\ActumTestProject\ActumTestProject\bin\Debug\ThoughtWorks.Selenium.Core.xml
